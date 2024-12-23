@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html, body {
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+
+.header {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+
+.horrule {
+  margin: 0 auto;
+  width: 94%;
+  margin-top: 20px;
+}
+
+.horrule hr {
+  border: none;
+  height: 1px;
+  background-color: rgb(119, 119, 232);
+  margin-bottom: 10px;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+  margin-top: auto; 
+  background-color: rgb(250, 247, 247);
+  padding: 20px;
+  text-align: center;
+}
+
+
+.footer_tag{
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_tag h4{
+  margin-bottom: 10px;
+}
+
+.footer_tag ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.footer_tag li{
+  list-style: none;
+}
+
+.bodymain{
+  display: flex;
+  align-items: center;
+  margin: auto auto;
+}
+
+
